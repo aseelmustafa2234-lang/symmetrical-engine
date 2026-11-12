@@ -1,0 +1,17 @@
+:root{--ink:#12263a;--teal:#14a38b;--paper:#f2f5f8;}
+body{font-family:'Cairo',sans-serif;background:var(--paper);color:#1d2b3a;margin:0}
+.side{position:fixed;inset:0 0 0 auto;width:230px;background:var(--ink);padding:22px 14px;z-index:5}
+.brand{color:#fff;font-weight:700;font-size:1.25rem;padding:6px 10px 22px}
+.brand i{color:var(--teal)}
+.side nav a{display:flex;gap:10px;align-items:center;color:#b9c7d6;text-decoration:none;padding:11px 12px;border-radius:8px;margin-bottom:4px}
+.side nav a:hover{background:#1c3650;color:#fff}
+.content{margin-right:230px;padding:28px 34px}
+.page-title{font-weight:700;margin-bottom:22px}
+.stat{background:#fff;border-radius:10px;padding:18px;border-inline-start:5px solid var(--teal)}
+.stat .n{font-size:1.7rem;font-weight:700}
+.stat .l{color:#6b7b8c;font-size:.9rem}
+.box{background:#fff;border-radius:10px;padding:18px}
+.table th{color:#6b7b8c;font-weight:600;font-size:.9rem}
+.btn-main{background:var(--teal);border-color:var(--teal);color:#fff}
+.btn-main:hover{background:#0f8a75;color:#fff}
+@media(max-width:800px){.side{position:static;width:auto}.content{margin:0;padding:16px}}
